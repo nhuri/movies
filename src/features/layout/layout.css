@@ -1,0 +1,36 @@
+.header{
+    min-height: 150PX;
+    background-color: lightblue;
+    color: rgb(236, 60, 37);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.main-menu{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: rgb(242, 127, 45);
+    padding: 8px;
+    margin: 0;
+}
+
+.main-menu ul li{
+display:inline;
+margin-left: 25px;
+padding: 7px;
+}
+.search-block input, .search-block button{
+padding: 7px;
+border-radius: 5px;
+margin-left: 2px;
+
+}
+.search-block button{
+    background-color: rgb(237, 208, 187);;
+}
+.search-block button:hover{
+    background-color: rgb(241, 223, 210);
+    cursor: pointer;
+}
